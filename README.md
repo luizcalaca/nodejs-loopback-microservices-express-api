@@ -75,4 +75,5 @@ lb4 app
 lb4 model
 lb4 datasource
 lb4 repository
+lb4 controller
 ```
