@@ -71,7 +71,7 @@ understand how you can continue to add features to this application.
 ## Commands
 
 ```sh
-lb4 <app_name>
-
+lb4 app
+lb4 model
 
 ```
