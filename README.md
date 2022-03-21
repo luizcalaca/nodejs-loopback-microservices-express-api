@@ -73,5 +73,6 @@ understand how you can continue to add features to this application.
 ```sh
 lb4 app
 lb4 model
-
+lb4 datasource
+lb4 repository
 ```
