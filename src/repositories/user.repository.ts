@@ -13,4 +13,11 @@ export class UserRepository extends DefaultCrudRepository<
   ) {
     super(User, dataSource);
   }
+
+  public findByUserId(id: number) {
+    return this.findById(id);
+  }
+  public findByName(name: string) {
+    return this.findOne({where: {name}});
+  }
 }
