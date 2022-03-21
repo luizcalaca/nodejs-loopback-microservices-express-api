@@ -25,7 +25,7 @@ export class User extends Entity {
     type: 'date',
     required: true,
   })
-  created_at: string;
+  createdat: Date;
 
 
   constructor(data?: Partial<User>) {
